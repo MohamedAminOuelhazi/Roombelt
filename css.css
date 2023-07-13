@@ -1,0 +1,87 @@
+body, html {
+    height: 100%;
+    color:aliceblue;
+}
+
+.bg{
+    /* The image used */
+    background-image: url("/img/bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    
+    padding-top:0.1cm;
+    color:aliceblue;
+    font-size: 3rem;
+}
+.h2{
+    
+    padding-top:0.1cm;
+    color:aliceblue;
+    font-size: 2rem;
+}
+.h6{
+    margin-right : 0.3em ;
+    margin-top: -0.2em;
+    color:aliceblue;
+    font-size: 0.8em;
+}
+
+.content{
+    padding-left: 5%; 
+    
+}
+.bg-transparent{
+
+    background-color: rgba(255, 0, 0, 0.5);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap : nowrap;
+    align-content: normal;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 0.9rem 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.btn-success{
+    background: rgba(84, 187, 132, 0.6);
+    border-color: rgba(84,187,132, 0.8);
+
+    min-width: 5em;
+    padding: 0.3em;
+    margin-right:5px ;    
+    border-radius: 0.2em;
+    border: 0.1em solid rgb(84, 187, 132);
+}
+.border-black{
+    border: 1cm;
+}
+
+.conteneur {
+    overflow: auto;
+    /* Autres styles pour votre conteneur */
+    height: 700px; /* ou spécifiez une hauteur appropriée */
+}
