@@ -1,0 +1,155 @@
+body, html {
+    height: 100%;
+    color:aliceblue;
+}
+
+.bg{
+    /* The image used */
+    background-image: url("/img/bg.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    
+    padding-top:0.1cm;
+    color:aliceblue;
+    font-size: 3rem;
+}
+.h2{
+    
+    padding-top:0.1cm;
+    color:aliceblue;
+    font-size: 2rem;
+}
+.h6{
+    margin-right : 0.3em ;
+    margin-top: -0.2em;
+    color:aliceblue;
+    font-size: 0.8em;
+}
+
+.content{
+    padding-left: 5%; 
+    
+}
+.bg-transparent{
+    
+    background-color: #000000a4!important;
+    
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap : nowrap;
+    align-content: normal;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+    padding: 0.9rem 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.btn-success{
+    background: rgba(84, 187, 132, 0.6);
+    border-color: rgba(84,187,132, 0.8);
+
+    min-width: 5em;
+    padding: 0.3em;
+    margin-right:5px ;    
+    border-radius: 0.2em;
+    border: 0.1em solid rgb(84, 187, 132);
+}
+.border-black{
+    border: 1cm;
+}
+
+.conteneur {
+    overflow: auto;
+    /* Autres styles pour votre conteneur */
+    height: 700px; /* ou spécifiez une hauteur appropriée */
+}
+
+.ms-1 {
+    flex: auto;
+    margin-left: 5cm ;
+    
+}
+@media (min-width: 576px) { 
+.card-r{
+    position: absolute;
+    top: 35%;
+    left: 100%;
+    transform: translateX(-50%);
+}
+}
+
+@media (min-width: 768px) { 
+    .enda {
+    margin-left: 11cm  ;
+} 
+
+}
+
+
+@media (min-width: 992px) { 
+    
+    .enda {
+    margin-left: 15cm  ;
+}  }
+
+
+@media (min-width: 1202px) { 
+    
+    .enda {
+    margin-left: 18cm ;
+}  }
+
+
+  /* Styles spécifiques aux écrans de taille xs (téléphones) */
+@media (max-width: 575.98px) {
+    .btn-responsive-width {
+      /* Définir la largeur souhaitée pour les écrans de taille xs (téléphones) */
+      width: 100%; /* Par exemple, ici, nous maintenons la largeur à 100% pour les écrans de téléphone */
+    }
+    .btna{
+        width: 100%;
+    }
+}
+
+  /* Styles spécifiques aux écrans de taille sm (tablettes en mode portrait) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-responsive-width {
+      /* Définir la largeur souhaitée pour les écrans de taille sm (tablettes en mode portrait) */
+      width: 100%; /* Par exemple, ici, nous définissons la largeur à 50% pour les écrans de tablettes en mode portrait */
+    }
+    .btna{
+        width: 100%;
+    }
+
+}
+
+/* Styles pour la classe personnalisée .white-line */
+.white-line {
+    background-color: white; /* Couleur blanche de la ligne */
+    height: 1px; /* Hauteur de la ligne (par exemple, 1 pixel) */
+    width:95%; /* Largeur de la ligne à 100% */
+  }
+
